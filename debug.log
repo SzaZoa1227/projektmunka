@@ -1,0 +1,3 @@
+[0217/130917.088:ERROR:registration_protocol_win.cc(107)] CreateFile: A rendszer nem találja a megadott fájlt. (0x2)
+[0217/130924.591:ERROR:registration_protocol_win.cc(107)] CreateFile: A rendszer nem találja a megadott fájlt. (0x2)
+[0217/131630.458:ERROR:registration_protocol_win.cc(107)] CreateFile: A rendszer nem találja a megadott fájlt. (0x2)
