@@ -7,11 +7,13 @@ h1{
     font-size: 40pt;
     font-weight: 800;
     font-family: 'Arial';
+	max-width:660px;
 }
 header > img{
     float: left;
     margin-left: 40px;
     margin-top: 20px;
+	width:300px;
 }
 .flexdiv{
     display:flex;
