@@ -15,7 +15,7 @@ header > img{
     margin-top: 20px;
 	width:300px;
 }
-.flexdiv{
+.flexdiv, header{
     display:flex;
 }
 .auto{
