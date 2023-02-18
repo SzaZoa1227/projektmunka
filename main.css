@@ -3,7 +3,7 @@
     padding: 0 auto;
     width: 1000px;
 }
-#focim{
+h1{
     float: left;
     margin-top: 40px;
     margin-left: 60px;
@@ -11,7 +11,7 @@
     font-weight: 800;
     font-family: 'Arial';
 }
-#logo{
+header > img{
     float: left;
     margin-left: 40px;
     margin-top: 20px;
