@@ -20,6 +20,6 @@ h1{
     display:flex;
 }
 .auto{
-    width:200px;
+    width: 500px;;
     border: 1px solid black;
 }
