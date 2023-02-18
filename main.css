@@ -16,6 +16,10 @@
     margin-left: 40px;
     margin-top: 20px;
 }
+.flexdiv{
+    display:flex;
+}
 .auto{
     width:200px;
+    border: 1px solid black;
 }
