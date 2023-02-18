@@ -25,4 +25,9 @@ h1{
 	margin: 5px;
 	padding:5px;
 	text-align:center;
+	background-color:lightblue;
+}
+button{
+background-color:lightblue;
+    border: 1px solid black;
 }
