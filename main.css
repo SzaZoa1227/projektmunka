@@ -11,6 +11,9 @@
     font-weight: 800;
     font-family: 'Arial';
 }
+header{
+    height:fit-content;
+}
 #logo{
     float: left;
     margin-left: 40px;
