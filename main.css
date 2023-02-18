@@ -22,4 +22,7 @@ h1{
 .auto{
     width: 500px;
     border: 1px solid black;
+	margin: 5px;
+	padding:5px;
+	text-align:center;
 }
