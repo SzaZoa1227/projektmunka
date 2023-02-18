@@ -8,12 +8,13 @@ h1{
     font-weight: 800;
     font-family: 'Arial';
 	max-width:660px;
+	float:right;
+	text-align:center;
 }
-header > img{
+#ikon{
     float: left;
-    margin-left: 40px;
+    margin-right: 40px;
     margin-top: 20px;
-	width:300px;
 }
 .flexdiv, header{
     display:flex;
