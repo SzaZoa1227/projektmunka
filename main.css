@@ -55,3 +55,10 @@ button:hover{
 td{
     text-align: left;
 }
+.bold{
+	font-weight:bold;
+}
+table{
+	width:75%;
+	margin: 10px auto;
+} 	
