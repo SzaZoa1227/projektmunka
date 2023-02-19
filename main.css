@@ -39,7 +39,7 @@ header {
 
 button {
     background-color: lightblue;
-    border: 1px solid lightgray;
+    border: 1px solid white;
     transition-duration: 500ms;
 }
 .auto:hover, button:hover{
