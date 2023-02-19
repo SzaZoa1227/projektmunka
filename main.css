@@ -48,3 +48,10 @@ button {
 button:hover{
     background-color: green;
 }
+.auto img{
+    width: 75%;
+    margin: 0 auto;
+}
+td{
+    text-align: left;
+}
