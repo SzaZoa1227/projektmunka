@@ -1,57 +1,100 @@
-*{
-	transition: 1s;
-}
-.container,
-header {
-    margin: 0 auto;
-    padding: 0 auto;
-    width: 1000px;
-}
-
-h1 {
-    font-size: 40pt;
-    font-weight: 800;
-    font-family: 'Arial';
-    max-width: 660px;
-    float: right;
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-}
-
-#ikon {
-    float: left;
-    margin-right: 40px;
-    margin-top: 20px;
-}
-
-.flexdiv,
-header {
-    display: flex;
-}
-
-.auto {
+  }
+  
+  nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  article {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    padding: 10px;
+  }
+  
+  aside {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    margin: 0 20px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .auto {
     width: 500px;
     border: 1px solid lightgray;
     margin: 5px;
     padding: 5px;
     text-align: center;
-    background-color: lightblue;
-}
-
-button {
-    background-color: lightblue;
+  }
+  
+  button {
     border: 1px solid lightgray;
     transition-duration: 500ms;
-}
-.auto:hover, button:hover{
+  }
+  
+  .auto:hover,
+  button:hover {
     border: 1px solid black;
-}
-button:hover{
+  }
+  
+  button:hover {
     background-color: green;
-}
-.auto img{
+  }
+  
+  .auto img {
     width: 75%;
     margin: 0 auto;
-}
-td{
+  }
+  
+  td {
     text-align: left;
-}
+  }
+  
+  .flexdiv {
+    display: flex;
+  }
+  
+  * {
+    transition: 1s;
+  }
