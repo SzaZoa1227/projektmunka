@@ -104,7 +104,7 @@ article, .auto{
 }
 header img{
 	height:100px;
-	position:fixed;
+	position:absolute;
 	left:20px
 }
 article:last-child{
