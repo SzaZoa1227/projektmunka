@@ -104,3 +104,6 @@ td {
 table {
     margin: 0 auto;
 }
+form{
+    height: fit-content;
+}
