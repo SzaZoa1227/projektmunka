@@ -47,14 +47,6 @@ article {
     padding: 10px;
 }
 
-aside {
-    background-color: #f8f8f8;
-    border: 1px solid #ccc;
-    margin: 0 20px;
-    padding: 10px;
-    width: 200px;
-}
-
 footer {
     background-color: #333;
     color: #fff;
@@ -72,19 +64,22 @@ footer {
 button {
     border: 1px solid lightgray;
     transition-duration: 500ms;
+    height: 20px;
+    margin: 24px auto 24px 10px;
 }
+
 .auto:hover,
 button:hover {
     border: 1px solid black;
 }
 
 button:hover {
-    background-color: black;
-    color:white;
+    background-color: #333  ;
+    color: white;
 }
 
 .auto img {
-    width: 75%;
+    width: 25%;
     margin: 0 auto;
 }
 
@@ -95,12 +90,16 @@ td {
 .flexdiv {
     display: flex;
     margin: 0 auto;
+    justify-content: center
 }
 
 .bold {
     font-weight: bold;
 }
 
-form{
+form {
     height: fit-content;
+}
+article, .auto{
+    border-radius: 15px;
 }
