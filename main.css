@@ -89,12 +89,4 @@ body {
   
   td {
     text-align: left;
-  }
-  
-  .flexdiv {
-    display: flex;
-  }
-  
-  * {
-    transition: 1s;
-  }
+}
