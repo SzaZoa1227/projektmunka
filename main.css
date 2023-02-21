@@ -36,6 +36,8 @@ nav a {
 
 section {
     margin: 20px;
+	display:flex;
+	justify-content: center;
 }
 
 article {
@@ -93,6 +95,7 @@ td {
 
 .flexdiv {
     display: flex;
+    margin: 0 auto;
 }
 .bold{
     font-weight:bold;
