@@ -67,12 +67,17 @@ button {
     margin: 24px auto 24px 10px;
 	border-radius:20px;
 	height:2em;
-    box-shadow: #333 0px 9px;
+		box-shadow: #220 0px 3px 3px;
+	cursor:pointer;
+}
+button:active:{
+	transform: translateY(4px);
 }
 
 .auto:hover,
 button:hover {
     border: 1px solid black;
+	box-shadow: #022 0px 1px 3px; 
 }
 
 button:hover {
