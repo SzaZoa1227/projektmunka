@@ -9,7 +9,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
-	text-align:center;
+    text-align: center;
 }
 
 nav {
@@ -47,8 +47,8 @@ article {
 }
 
 footer {
-    background-color:rgba(66,66,66,1);
-    color:#fff;
+    background-color: rgba(66, 66, 66, 1);
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
@@ -65,31 +65,32 @@ button {
     transition-duration: 500ms;
     height: 20px;
     margin: 24px auto 24px 10px;
-	border-radius:20px;
-	height:2em;
-		box-shadow: #220 0px 3px 3px;
-	cursor:pointer;
+    border-radius: 20px;
+    height: 2em;
+    box-shadow: #220 0px 3px 3px;
+    cursor: pointer;
 }
+
 button:active {
-	transform: translateY(4px);
+    transform: translateY(4px);
 }
 
 .auto:hover,
 button:hover {
     border: 1px solid black;
-	box-shadow: #022 0px 1px 3px; 
+    box-shadow: #022 0px 1px 3px;
 }
 
 button:hover {
-    background-color: #333  ;
+    background-color: #333;
     color: white;
 }
 
 .auto img {
     width: 30%;
     margin: 0 auto;
-	border-top-left-radius: 15px
-	}
+    border-top-left-radius: 15px
+}
 
 td {
     text-align: left;
@@ -108,14 +109,18 @@ td {
 form {
     height: fit-content;
 }
-article, .auto{
+
+article,
+.auto {
     border-radius: 15px;
 }
-header img{
-	height:100px;
-	position:absolute;
-	left:20px
+
+header img {
+    height: 100px;
+    position: absolute;
+    left: 20px
 }
-article:last-child{
+
+article:last-child {
     margin-top: 10px;
 }
