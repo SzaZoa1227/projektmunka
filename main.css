@@ -3,6 +3,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+	background-image:url(https://images.hdqwalls.com/wallpapers/toyota-supra-drifting-3x.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:fill;
 }
 
 header {
@@ -87,9 +91,10 @@ button:hover {
 }
 
 .auto img {
-    width: 30%;
+    height: 150px;
     margin: 0 auto;
-    border-top-left-radius: 15px
+    border-top-left-radius: 15px;
+	margin-right:10px;
 }
 
 td {
@@ -118,9 +123,12 @@ article,
 header img {
     height: 100px;
     position: absolute;
-    left: 20px
+    right: 20px;
 }
 
 article:last-child {
     margin-top: 10px;
+}
+table{
+	height:200px
 }
