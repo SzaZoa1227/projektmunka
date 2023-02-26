@@ -10,8 +10,8 @@
 </head>
 <script>
   function latszikNemLatszik() {
-    var x = document.getElementByClass("js");
-    if (x.style.display === "none") {
+    var x = document.getElementsByClassName("js");
+    if (x.style.style === "none") {
       x.style.display = "block";
     } else {
       x.style.display = "none";
@@ -29,7 +29,7 @@
     <ul>
       <li><a href="#">Főoldal</a></li>
       <li><a href="alt.html" target="_blank">Elérhetőségeink</a></li>
-      <li><a onclick="latszikNemLatszik()">Nééézd milyen szép a háttérkép</a></li>
+      <li><button onclick="latszikNemLatszik()">Nééézd milyen szép a háttérkép</button></li>
     </ul>
   </nav>
   <section>
