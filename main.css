@@ -3,10 +3,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-	background-image:url(https://images.hdqwalls.com/wallpapers/toyota-supra-drifting-3x.jpg);
-	background-position:center;
-	background-repeat:no-repeat;
-	background-size:fill;
+    background-image: url(https://images.hdqwalls.com/wallpapers/toyota-supra-drifting-3x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
 }
 
 header {
@@ -94,7 +94,7 @@ button:hover {
     height: 150px;
     margin: 0 auto;
     border-top-left-radius: 15px;
-	margin-right:10px;
+    margin-right: 10px;
 }
 
 td {
@@ -129,6 +129,7 @@ header img {
 article:last-child {
     margin-top: 10px;
 }
-table{
-	height:200px
+
+table {
+    height: 200px
 }

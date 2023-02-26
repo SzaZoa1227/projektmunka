@@ -7,19 +7,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Szabó Roland autókereskedés</title>
   <link rel="stylesheet" href="main.css">
+</head>
+<script>
+  function latszikNemLatszik() {
+    var x = document.getElementByClass("js");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+
 <body>
   <header>
     <img src="supra.png" alt="" id="ikon">
     <h1>Szabó Roland autókereskedés</h1>
+
   </header>
   <nav>
     <ul>
       <li><a href="#">Főoldal</a></li>
       <li><a href="alt.html" target="_blank">Elérhetőségeink</a></li>
+      <li><a onclick="latszikNemLatszik()">Nééézd milyen szép a háttérkép</a></li>
     </ul>
   </nav>
   <section>
-    <article>
+    <article class="js">
       <div class="flexdiv">
         <div class="auto">
           <div class="flexdiv">
@@ -109,7 +123,7 @@
         </div>
       </div>
     </article>
-    <article>
+    <article class="js">
       <div class="flexdiv">
         <div class="auto">
           <div class="flexdiv">
@@ -203,8 +217,8 @@
   </section>
   <footer>
     <p>&copy; 2023 Szabó Roland autókereskedés. Minden jog fenntartva.</p>
-	<p>Egy autóhírdetés sem a mienk, van elérhetőség, de ha lehet ne keressetek. Nincs semmi közünk
-          ezekhez.</p>
+    <p>Egy autóhírdetés sem a mienk, van elérhetőség, de ha lehet ne keressetek. Nincs semmi közünk
+      ezekhez.</p>
   </footer>
 </body>
 
