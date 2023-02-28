@@ -125,6 +125,8 @@ header img {
     height: 100px;
     position: absolute;
     right: 20px;
+	transition-duration: 5000ms;
+	
 }
 
 article:last-child {
