@@ -9,10 +9,23 @@
   <link rel="stylesheet" href="main.css">
   <link rel="shortcut icon" href="kiskep.jpg" type="image/x-icon">
 </head>
+<script>
+  function myFunction(){
+    var x = document.getElementById("ikon")
+    if(x.style.right = "20px"){
+      x.style.right = "none";
+      x.style.left = "20px";
+    }
+    else{
+      x.style.left = "none";
+      x.style.right = "20px";
+    }
 
+  }
+</script>
 <body>
   <header>
-    <img src="supra.png" alt="" id="ikon">
+    <img onclick="ugrik()" src="supra.png" alt="" id="ikon">
     <h1>Szabó Roland autókereskedés</h1>
 
   </header>
