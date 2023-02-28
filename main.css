@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f8f8;
+    background-color: rgba#f8f8f8;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -44,7 +44,7 @@ section {
 }
 
 article {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
     border: 1px solid #ccc;
     box-shadow: 0 0 5px #ccc;
     padding: 10px;
