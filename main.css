@@ -16,6 +16,13 @@ header {
     text-align: center;
 }
 
+header img {
+    height: 100px;
+    position: absolute;
+    right: 20px;
+
+}
+
 nav {
     background-color: #666;
     color: #fff;
@@ -48,15 +55,18 @@ article {
     border: 1px solid #ccc;
     box-shadow: 0 0 5px #ccc;
     padding: 10px;
-	display:block;
-    color:#000;
+    display: block;
+    color: #000;
 }
 
-footer {
-    background-color: rgba(66, 66, 66, 1);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+article:last-child {
+    margin-top: 10px;
+}
+
+.flexdiv {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center
 }
 
 .auto {
@@ -64,6 +74,21 @@ footer {
     border: 1px solid lightgray;
     margin: 5px;
     text-align: center;
+}
+
+.auto img {
+    height: 150px;
+    margin: 0 auto;
+    border-top-left-radius: 15px;
+    margin-right: 10px;
+}
+
+table {
+    height: 200px
+}
+
+td {
+    text-align: left;
 }
 
 button {
@@ -92,47 +117,22 @@ button:hover {
     color: white;
 }
 
-.auto img {
-    height: 150px;
-    margin: 0 auto;
-    border-top-left-radius: 15px;
-    margin-right: 10px;
-}
-
-td {
-    text-align: left;
-}
-
-.flexdiv {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center
+form {
+    height: fit-content;
 }
 
 .bold {
     font-weight: bold;
 }
 
-form {
-    height: fit-content;
+footer {
+    background-color: rgba(66, 66, 66, 1);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
 article,
 .auto {
     border-radius: 15px;
-}
-
-header img {
-    height: 100px;
-    position: absolute;
-    right: 20px;
-	
-}
-
-article:last-child {
-    margin-top: 10px;
-}
-
-table {
-    height: 200px
 }
