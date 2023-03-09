@@ -9,9 +9,19 @@
   <link rel="stylesheet" href="main.css">
   <link rel="shortcut icon" href="kiskep.jpg" type="image/x-icon">
 </head>
+<script>
+  var x = document.getElementById("supra");
+  var z = "ScaleX("+ertek+")"
+  var ertek = 1
+  function igen() {
+    var ertek = ertek*-1;
+    x.style.transform = z;
+  }
+</script>
+
 <body>
   <header>
-    <img src="supra.png">
+    <img onclick="igen()"src="supra.png" id="supra">
     <h1>Szabó Roland autókereskedés</h1>
   </header>
   <nav>
@@ -68,7 +78,8 @@
         </div>
         <div class="auto">
           <div class="flexdiv">
-            <img src="https://hasznaltauto.medija.hu/3805048/19192144_1.jpg?v=1678263312" alt="ki nem találod. suzuki swift">
+            <img src="https://hasznaltauto.medija.hu/3805048/19192144_1.jpg?v=1678263312"
+              alt="ki nem találod. suzuki swift">
             <table>
               <tr>
                 <td>
@@ -152,7 +163,8 @@
             </table>
           </div>
           <form>
-            <button type="submit" formaction="https://www.hasznaltauto.hu/szemelyauto/volkswagen/golf_ii/volkswagen_golf_ii_1.6_gl-18462546#sid=30b3b6b3-ad11-40cc-ae8e-2b90aa48507d">Nekem
+            <button type="submit"
+              formaction="https://www.hasznaltauto.hu/szemelyauto/volkswagen/golf_ii/volkswagen_golf_ii_1.6_gl-18462546#sid=30b3b6b3-ad11-40cc-ae8e-2b90aa48507d">Nekem
               ez kell!</button>
           </form>
         </div>

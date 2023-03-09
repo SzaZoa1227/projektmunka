@@ -20,6 +20,7 @@ header img {
     height: 100px;
     position: absolute;
     right: 20px;
+    transform: scaleX(1);
 
 }
 
