@@ -10,18 +10,16 @@
   <link rel="shortcut icon" href="kiskep.jpg" type="image/x-icon">
 </head>
 <script>
-  var x = document.getElementById("supra");
-  var z = "ScaleX("+ertek+")"
-  var ertek = 1
-  function igen() {
-    var ertek = ertek*-1;
-    x.style.transform = z;
-  }
-</script>
+  const current_rotation = 0;
+  document.querySelector("#supra").addEventListener('click', function(){
+	current_rotation += 90;
+document.querySelector(".rotate").style.transform = 'rotate(' + current_rotation + 'deg)';
+});
 
+</script>
 <body>
   <header>
-    <img onclick="igen()"src="supra.png" id="supra">
+    <img src="supra.png" id="supra">
     <h1>Szabó Roland autókereskedés</h1>
   </header>
   <nav>
